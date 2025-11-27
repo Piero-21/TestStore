@@ -11,14 +11,4 @@ export interface Product {
   };
 }
 
-export interface CartItem extends Product {
-  quantity: number;
-}
-
 export type Category = string;
-
-export enum SortOption {
-  DEFAULT = 'default',
-  PRICE_LOW_HIGH = 'price_asc',
-  PRICE_HIGH_LOW = 'price_desc',
-}
