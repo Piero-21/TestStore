@@ -1,15 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-
-const rootElement = document.getElementById('root');
-if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
-}
-
-const root = ReactDOM.createRoot(rootElement);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// Este archivo ya no es necesario para la versión simple de CodePen/GitHub Pages.
+// Toda la lógica se ha movido a index.html para facilitar el despliegue sin "build".
+// Puedes borrar este archivo.
